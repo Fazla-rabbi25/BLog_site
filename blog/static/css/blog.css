@@ -1,0 +1,41 @@
+body{
+    background-color: #d04e4e;
+
+}
+.techfont{
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigbrand{
+    font-size: 1.5em;
+}
+.napad{
+    font-size: 1.5em;
+    margin-right: 50px;
+}
+.centerstage{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postdate{
+    text-align: center; 
+}
+
+.posttitle{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.postcontent{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.btn-comment{
+    position: absolute;
+    right: 0px;
+}
