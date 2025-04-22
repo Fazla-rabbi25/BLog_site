@@ -31,9 +31,9 @@
         <div class="container">
             <ul class="nav navbar-nav">
                 <li><a class="navbar-brand bigbrand" href="{% url 'post_list' %}" style="margin-right:10px;color:white"><h3>BLOG</h3></a></li>
-                <li><a href="{% url 'about' %}" style="margin-left:10px; margin-right:10px; text-decoration:none; color:white">About</a></li>
-                <li><a href="https://github.com/" style="margin-right:10px; text-decoration:none;color:white">Github</a></li>
-                <li><a href="https://bd.linkedin.com/" style="margin-right:10px; text-decoration:none;color:white">LinkedIn</a></li>
+                <li><h4><a href="{% url 'about' %}" style="margin-left:10px; margin-right:10px; text-decoration:none; color:white">About</a></h4></li>
+                <li><h4><a href="https://github.com/" style="margin-right:10px; text-decoration:none;color:white">Github</a></h4></li>
+                <li><h4><a href="https://bd.linkedin.com/" style="margin-right:10px; text-decoration:none;color:white">LinkedIn</a></h4></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -48,7 +48,7 @@
                     </li>
                     <li><a style="margin-right:10px; text-decoration:none">Welcome: {{user.username }}</a></li>
                 {% else %}
-                    <li><a href="{% url 'login' %}" style="color:white">Login</a></li>
+                    <li><h4><a href="{% url 'login' %}" style="color:white">LOGIN</a></h4></li>
                 {% endif %}
             </ul>
         </div>
